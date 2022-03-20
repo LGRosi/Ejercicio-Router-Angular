@@ -5,3 +5,15 @@ ul {
   list-style: none;
   margin-left: -20px;
 }
+
+li {
+  cursor: pointer;
+  padding-inline: 10px;
+}
+
+.active {
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: black;
+}
