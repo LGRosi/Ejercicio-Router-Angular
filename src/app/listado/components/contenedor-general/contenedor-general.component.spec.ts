@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Pagina1Component } from './pagina1.component';
+import { ContenedorGeneralComponent } from './contenedor-general.component';
 
-describe('Pagina1Component', () => {
-  let component: Pagina1Component;
-  let fixture: ComponentFixture<Pagina1Component>;
+describe('ContenedorGeneralComponent', () => {
+  let component: ContenedorGeneralComponent;
+  let fixture: ComponentFixture<ContenedorGeneralComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ Pagina1Component ]
+      declarations: [ ContenedorGeneralComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Pagina1Component);
+    fixture = TestBed.createComponent(ContenedorGeneralComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
