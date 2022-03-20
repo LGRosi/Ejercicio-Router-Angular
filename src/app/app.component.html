@@ -1,43 +1,4 @@
-<mat-toolbar>
-  <div>
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-      <mat-icon>menu</mat-icon>
-    </button>
-    <span>My App</span>
-  </div>
-  <nav>
-    <ul>
-      <li routerLink=""
-          routerLinkActive="active"
-          [routerLinkActiveOptions]="{ exact: true }"
-          >
-          Home
-      </li>
-      <li routerLink="pagina1"
-          routerLinkActive="active">
-          Página 1
-      </li>
-      <li routerLink="pagina2"
-          routerLinkActive="active">
-          Página 2
-      </li>
-      <li routerLink="pagina3"
-          routerLinkActive="active">
-          Página 3
-      </li>
-    </ul>
-  </nav>
-  <div>
-    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
-      <mat-icon>favorite</mat-icon>
-    </button>
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-      <mat-icon>share</mat-icon>
-    </button>
-  </div>
-</mat-toolbar>
-
-
+<app-header></app-header>
 <div>
   <router-outlet></router-outlet>
 </div>

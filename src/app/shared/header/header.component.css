@@ -1,0 +1,34 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1f1f1f;
+  color: white;
+  height: 70px;
+}
+
+.contenedor-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+figure {
+  width: 0px;
+  height: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+h1 {
+  margin-block: auto;
+}
+
+app-navbar {
+  width: 40%;
+}
+
+.contenedor-iconos {
+  margin-right: 40px;
+}
